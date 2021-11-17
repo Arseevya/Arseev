@@ -1,0 +1,27 @@
+.Name_block{
+    background: red;
+    padding: 100px;
+
+}
+.My_info_block{
+    float: left;
+    background: chartreuse;
+    padding: 200px;
+
+}
+.Comment{
+    float: right;
+    background: aqua;
+    padding:200px;
+
+}
+.Foto_profile{
+float: left;
+    background: crimson;
+    padding:100px;
+}
+.Header{
+    float: top;
+    background: cyan;
+    text-align: center;
+}
