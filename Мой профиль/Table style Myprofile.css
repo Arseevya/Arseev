@@ -101,12 +101,6 @@
 }
 
 @media print {
-    /*    .picturegrid {
-            display: block;
-        }
-        .pictureflex {
-        display: block;
-        }*/
     .container_all {
         display: block;
     }
@@ -119,4 +113,10 @@
 }
 .footer{
     text-align: center;
+}
+#back_style_day{
+    background-color: white;
+}
+#back_style_night{
+    background-color: gray;
 }
