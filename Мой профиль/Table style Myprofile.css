@@ -12,7 +12,7 @@
     grid-area: hd;
     text-align: center;
 }
-.main {
+.about_me {
     display: grid;
     grid-template-areas:
 "fot name name"

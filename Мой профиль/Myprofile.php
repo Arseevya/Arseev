@@ -7,7 +7,7 @@
 </head>
 <body class="container_all" id="<?php
 $_hour = date('G');
-if (($_hour > 20) and ($_hour < 8)) {
+if (($_hour > 18) or ($_hour < 6)) {
     echo "back_style_night";
 } else {
     echo "back_style_white";
@@ -17,7 +17,7 @@ if (($_hour > 20) and ($_hour < 8)) {
     <h1>Мой профиль</h1>
 </header>
 <main>
-    <section class="main">
+    <section class="about_me">
         <div class="name"><h2>Арсеев Александр</h2></div>
         <div class="myfoto"><img src="Фото/CZAPOYK-Qlw.jpg" alt="это я"/></div>
         <div class="myinfo"><p>Хобби: времени хватает только, чтобы отдохнуть и провести время с близким.
