@@ -1,0 +1,37 @@
+<!--Первая задача-->
+<?php
+/*$_massiv=[];
+for ($i = 0; $i < 10; $i++) $_massiv[]= mt_rand(0,100);
+foreach ($_massiv as $_el) {
+    if ($_el % 2==0){
+        $_result="<b>$_el</b>";
+    }
+    else $_result=$_el;
+    echo "$_result <br>";
+}
+*/ ?>
+<!--Вторая задача--><?php
+/*$_massive = [["огурец", "помидор", "томат", "аэропорт", "Анадырь", "Аргентина", "перчатка"]];
+foreach ($_massive as $_first_dimension) {
+    foreach ($_first_dimension as $_word) {
+        if (substr($_word, 0, 2) == "А") {
+            echo "$_word <br>";
+        }
+    }
+}
+*/ ?>
+<!--Третья задача-->
+<?php
+$massive = [[8, 3, 7, 9, 5, 5, 7]];
+for ($i = 0, $num_massive = count($massive); $i < $num_massive; $i++) {
+        for ($m = 0, $sub_num_massive = count($massive[$i]); $sub_num_massive > $m; $m++) {
+        $demension_1+=$num_massive;
+        $demension_2+=$sub_num_massive;
+        $all_sum+=$num_massive;
+        $all_sum+=$sub_num_massive;
+
+    }
+}
+echo "Общее количество-$all_sum<br>" . "1 измерение-$demension_1<br> " . "2 измерение-$demension_2<br>";
+
+

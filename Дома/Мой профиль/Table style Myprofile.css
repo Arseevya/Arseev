@@ -1,0 +1,121 @@
+.container_all {
+    display: grid;
+        justify-items: center;
+    grid-template-areas:
+            "hd"
+            "mn"
+            "pf"
+            "pg"
+            "ft" ;
+}
+.header{
+    grid-area: hd;
+    text-align: center;
+}
+.about_me {
+    display: grid;
+    grid-template-areas:
+"fot name name"
+"fot inf com";
+    justify-items: stretch;
+    grid-area: mn;
+}
+.footer{
+    grid-area: ft;
+}
+
+.name {
+    grid-area: name;
+    text-align: center;
+}
+
+.myfoto {
+    display: grid;
+    grid-area: fot;
+    height: auto;
+
+}
+.myinfo{
+}
+.mycomment{
+}
+
+.pictureflex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    grid-area: pf;
+}
+
+.picture_one_flex {
+    display: flex;
+
+
+}
+
+.picture_two_flex {
+    display: flex;
+}
+
+.picture_three_flex {
+    display: flex;
+}
+
+.picture_four_flex {
+    display: flex;
+}
+
+.text_of_picture_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.picturegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-area: pg;
+
+}
+
+.picture_one_grid {
+    display: grid;
+}
+
+.picture_two_grid {
+    display: grid;
+}
+
+.picture_three_grid {
+    display: grid;
+}
+.picture_four_grid {
+    display: grid;
+
+}
+.text_of_picture_grid {
+    display: grid;
+    text-align: center;
+}
+
+@media print {
+    .container_all {
+        display: block;
+    }
+}
+.myinfo{
+    display: block;
+}
+.mycomment{
+    display: block;
+}
+.footer{
+    text-align: center;
+}
+#back_style_day{
+    background-color: white;
+}
+#back_style_night{
+    background-color: gray;
+}
