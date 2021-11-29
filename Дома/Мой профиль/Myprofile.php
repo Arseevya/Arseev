@@ -5,6 +5,7 @@
     <title>Арсеев Александр</title>
     <link rel="stylesheet" href="Table style Myprofile.css">
 </head>
+<!--container_all,чтобы все разметить id-включаю стили переключения фона-->
 <body class="container_all" id="<?php
 $_hour = date('G');
 if (($_hour > 18) or ($_hour < 6)) {
@@ -14,11 +15,12 @@ if (($_hour > 18) or ($_hour < 6)) {
 }
 ?>">
 <header class="header">
+<!--    Включил текст-шаблон-->
 <?php require 'include-files\header.txt'
 ?>
 </header>
 <main>
-    <section class="about_me">
+    <section class="about_me" >
         <div class="name"><h2>Арсеев Александр</h2></div>
         <div class="myfoto"><img src="Фото/CZAPOYK-Qlw.jpg" alt="это я"/></div>
         <div class="myinfo"><p>Хобби: времени хватает только, чтобы отдохнуть и провести время с близким.
@@ -37,6 +39,14 @@ if (($_hour > 18) or ($_hour < 6)) {
                 атмосферы
                 усвоения. Подход с желанием
                 научить, а не тараторить без вовлечения в процесс за з.п.</p></div>
+        <div class="hw">
+            <ol>Ссылки на страницы ДЗ
+                <li title="еще не сделал">Таблица Сенделеева</li>
+                <li><a href="../Массивы/Массивы.php" title="массивы" target="_blank">Массивы</a></li>
+            </ol>
+
+
+        </div>
     </section>
     <section class="pictureflex">
         <div>
@@ -78,6 +88,7 @@ if (($_hour > 18) or ($_hour < 6)) {
     </section>
 </main>
 <div class="footer">
+    <!--    Включил текст-шаблон-->
     <footer><?php require 'include-files\footer.txt'
         ?></footer>
 </div>

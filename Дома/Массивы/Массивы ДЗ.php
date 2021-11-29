@@ -1,6 +1,6 @@
-<!--Первая задача-->
+Первая задача
 <?php
-/*$_massiv=[];
+$_massiv=[];
 for ($i = 0; $i < 10; $i++) $_massiv[]= mt_rand(0,100);
 foreach ($_massiv as $_el) {
     if ($_el % 2==0){
@@ -9,9 +9,9 @@ foreach ($_massiv as $_el) {
     else $_result=$_el;
     echo "$_result <br>";
 }
-*/ ?>
-<!--Вторая задача--><?php
-/*$_massive = [["огурец", "помидор", "томат", "аэропорт", "Анадырь", "Аргентина", "перчатка"]];
+ ?>
+Вторая задача<?php
+$_massive = [["огурец", "помидор", "томат", "аэропорт", "Анадырь", "Аргентина", "перчатка"]];
 foreach ($_massive as $_first_dimension) {
     foreach ($_first_dimension as $_word) {
         if (substr($_word, 0, 2) == "А") {
@@ -19,8 +19,8 @@ foreach ($_massive as $_first_dimension) {
         }
     }
 }
-*/ ?>
-<!--Третья задача-->
+ ?>
+Третья задача
 <?php
 $massive = [[8, 3, 7, 9, 5, 5, 7]];
 for ($i = 0, $num_massive = count($massive); $i < $num_massive; $i++) {

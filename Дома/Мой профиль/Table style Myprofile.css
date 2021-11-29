@@ -14,32 +14,34 @@
 }
 .about_me {
     display: grid;
-    grid-template-areas:
-"fot name name"
-"fot inf com";
     justify-items: stretch;
     grid-area: mn;
+    grid-template-areas:
+"fot name name"
+"fot mi com";
+"fot hw hw"
+
 }
-.footer{
-    grid-area: ft;
+.myfoto {
+    grid-area: fot;
+
 }
 
 .name {
     grid-area: name;
     text-align: center;
 }
-
-.myfoto {
-    display: grid;
-    grid-area: fot;
-    height: auto;
-
-}
 .myinfo{
+    grid-area: mi;
+
 }
 .mycomment{
+    grid-area: com;
 }
-
+.hw{
+grid-area: hw;
+text-overflow: clip;
+}
 .pictureflex {
     display: flex;
     flex-wrap: nowrap;
