@@ -41,7 +41,7 @@ if (($_hour > 18) or ($_hour < 6)) {
                 научить, а не тараторить без вовлечения в процесс за з.п.</p></div>
         <div class="hw">
             <ol>Ссылки на страницы ДЗ
-                <li title="еще не сделал">Таблица Сенделеева</li>
+                <li ><a href="../Table of Mendeleev/Teable_Mendeleev.html" title="Таблица Менделеева">Таблица Менделеева</a></li>
                 <li><a href="../Массивы/Массивы.php" title="массивы" target="_blank">Массивы</a></li>
             </ol>
 
@@ -87,10 +87,8 @@ if (($_hour > 18) or ($_hour < 6)) {
             <cite class="text_of_picture_grid">машина</cite></div>
     </section>
 </main>
-<div class="footer">
     <!--    Включил текст-шаблон-->
-    <footer><?php require 'include-files\footer.txt'
+    <footer class="footer"><?php require 'include-files\footer.txt'
         ?></footer>
-</div>
 </body>
 </html>
