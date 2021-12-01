@@ -1,0 +1,192 @@
+.container_all {
+    display: grid;
+    justify-items: center;
+    grid-template-areas:
+            "hd"
+            "mn"
+            "pf";
+}
+
+.header {
+    grid-area: hd;
+    text-align: center;
+}
+
+.table {
+    display: grid;
+    grid-area: mn;
+    justify-content: center;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    grid-template-areas:
+    "h . . . . . ."
+    "li be b c n o f"
+    "na mg al si p s cl"
+    "k ca sc ti v cr mn1"
+    "cu zn ga ge as se br";
+}
+
+.h {
+    grid-area: h;
+
+}
+
+.li {
+    grid-area: li;
+
+}
+
+.be {
+    grid-area: be;
+
+
+}
+
+.b {
+    grid-area: b;
+
+
+}
+
+.c {
+    grid-area: c;
+
+
+}
+
+.n {
+    grid-area: n;
+
+
+}
+
+.o {
+    grid-area: o;
+
+}
+
+.f {
+    grid-area: f;
+
+
+}
+
+.na {
+    grid-area: na;
+
+}
+
+.mg {
+    grid-area: mg;
+
+}
+
+.al {
+    grid-area: al;
+
+}
+
+.si {
+    grid-area: si;
+
+}
+
+.p {
+    grid-area: p;
+
+}
+
+.s {
+    grid-area: s;
+
+}
+
+.cl {
+    grid-area: cl;
+
+}
+
+.k {
+    grid-area: k;
+}
+
+.ca {
+    grid-area: ca;
+
+}
+
+.sc {
+    grid-area: sc;
+}
+
+.ti {
+    grid-area: ti;
+}
+
+.v {
+    grid-area: v;
+}
+
+.cr {
+    grid-area: cr;
+}
+
+.mn1 {
+    grid-area: mn1;
+}
+
+.cu {
+    grid-area: cu;
+}
+
+.zn {
+    grid-area: zn;
+}
+
+.ga {
+    grid-area: ga;
+}
+
+.ge {
+    grid-area: ge;
+}
+
+.as {
+    grid-area: as;
+}
+
+.se {
+    grid-area: se;
+}
+
+.br {
+    grid-area: br;
+}
+
+.h, .li, .be, .b, .c, .n, .o, .f, .na, .mg, .al, .si, .p, .s, .cl, .k, .ca, .sc,
+.ti, .v, .cr, .mn1, .cu, .zn, .ga, .ge, .as, .se, .br {
+    display: block;
+    background-color: green;
+    height: 10vh;
+    width: 10vw;
+}
+.him_block{
+}
+.num{
+}
+.el{
+
+}
+.name{
+}
+.mas{
+}
+.num, .el,.name,.mas{
+display: block;
+font-size: medium;
+}
+
+.footer {
+    display: block;
+    text-align: center;
+}
