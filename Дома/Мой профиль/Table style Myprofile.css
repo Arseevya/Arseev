@@ -1,27 +1,33 @@
 .container_all {
     display: grid;
-        justify-items: center;
+    justify-items: center;
     grid-template-areas:
             "hd"
             "mn"
             "pf"
             "pg"
-            "ft" ;
+            "ft";
 }
-.header{
+
+.header {
     grid-area: hd;
     text-align: center;
 }
+
 .about_me {
     display: grid;
-    grid-template-areas:
-"fot name name"
-"fot inf com";
     justify-items: stretch;
     grid-area: mn;
+    grid-template-areas:
+"fot name name"
+"fot mi com"
+"fot hw hw ";
+
 }
-.footer{
-    grid-area: ft;
+
+.myfoto {
+    grid-area: fot;
+
 }
 
 .name {
@@ -29,16 +35,21 @@
     text-align: center;
 }
 
-.myfoto {
-    display: grid;
-    grid-area: fot;
-    height: auto;
-    width: calc(100% / 2);
+.myinfo {
+    grid-area: mi;
 
 }
-.myinfo{
+
+.mycomment {
+    grid-area: com;
 }
-.mycomment{
+
+.hw {
+    grid-area: hw;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
 
 .pictureflex {
@@ -81,23 +92,27 @@
 }
 
 .picture_one_grid {
-    display: grid;
+    display: block;
 }
 
 .picture_two_grid {
-    display: grid;
+    display: block;
 }
 
 .picture_three_grid {
-    display: grid;
+    display: block;
 }
+
 .picture_four_grid {
-    display: grid;
+    display: block;
 
 }
+
 .text_of_picture_grid {
-    display: grid;
+    display: block;
     text-align: center;
+
+
 }
 
 @media print {
@@ -105,18 +120,24 @@
         display: block;
     }
 }
-.myinfo{
+
+.myinfo {
     display: block;
 }
-.mycomment{
+
+.mycomment {
     display: block;
 }
-.footer{
+
+.footer {
     text-align: center;
+    grid-area:ft;
 }
-#back_style_day{
+
+#back_style_day {
     background-color: white;
 }
-#back_style_night{
+
+#back_style_night {
     background-color: gray;
 }
