@@ -6,21 +6,15 @@
     <link rel="stylesheet" href="Table style Myprofile.css">
 </head>
 <!--container_all,чтобы все разметить id-включаю стили переключения фона-->
-<body class="container_all" id="<?php
-$_hour = date('G');
-if (($_hour > 18) or ($_hour < 6)) {
-    echo "back_style_night";
-} else {
-    echo "back_style_white";
-}
-?>">
+<body class="container_all" id="<?php include '\include-files\Функции\time.php';
+time(); ?>">
 <header class="header">
-<!--    Включил текст-шаблон-->
-<?php require 'include-files\header.txt'
-?>
+    <!--    Включил текст-шаблон-->
+    <?php require 'include-files\header.txt'
+    ?>
 </header>
 <main>
-    <section class="about_me" >
+    <section class="about_me">
         <div class="name"><h2>Арсеев Александр</h2></div>
         <div class="myfoto"><img src="Фото/CZAPOYK-Qlw.jpg" alt="это я"/></div>
         <div class="myinfo"><p>Хобби: времени хватает только, чтобы отдохнуть и провести время с близким.
@@ -41,7 +35,8 @@ if (($_hour > 18) or ($_hour < 6)) {
                 научить, а не тараторить без вовлечения в процесс за з.п.</p></div>
         <div class="hw">
             <ol>Ссылки на страницы ДЗ
-                <li ><a href="../Table of Mendeleev/Teable_Mendeleev.html" title="Таблица Менделеева">Таблица Менделеева</a></li>
+                <li><a href="../Table of Mendeleev/Teable_Mendeleev.html" title="Таблица Менделеева">Таблица
+                        Менделеева</a></li>
                 <li><a href="../Массивы/Массивы.php" title="массивы" target="_blank">Массивы</a></li>
             </ol>
 
@@ -87,8 +82,8 @@ if (($_hour > 18) or ($_hour < 6)) {
             <cite class="text_of_picture_grid">машина</cite></div>
     </section>
 </main>
-    <!--    Включил текст-шаблон-->
-    <footer class="footer"><?php require 'include-files\footer.txt'
-        ?></footer>
+<!--    Включил текст-шаблон-->
+<footer class="footer"><?php require 'include-files\footer.txt'
+    ?></footer>
 </body>
 </html>
