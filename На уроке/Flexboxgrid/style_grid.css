@@ -1,0 +1,16 @@
+body{
+	margin:0;
+	padding:0;
+}
+section{
+	display: grid;
+	grid-template-columns: repeat(5,1fr);
+}
+div{
+	border: 1px solid red;
+	border-radius: 50%;
+	margin: 10px;
+	background-color: orange;
+	width: 20px;
+	height:20px;
+}

@@ -1,0 +1,25 @@
+body{
+    background-color: orange;
+    padding:0px;
+}
+div{
+    background-color: crimson;
+    color: white;
+    padding:80px;
+    margin:10px 10px 0px 0px ;
+    flex: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    display:inline-block;
+
+}
+.container{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    flex-wrap:nowrap;
+
+
+
+
+}

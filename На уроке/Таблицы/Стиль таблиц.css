@@ -1,0 +1,14 @@
+body{
+    /*background: orange;*/
+}
+table, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    border-spacing: 15px 25px;
+}
+caption{
+    alignment:bottom ;
+}
+p{
+        float: left;
+}
