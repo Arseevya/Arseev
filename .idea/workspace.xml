@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9d8cb8fe-f974-43d6-89de-e40064e4b749" name="Default Changelist" comment="Обернул скрипт по смене фона в функцию и создал папку с функциями">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2021_12_57_[Default_Changelist]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2021_12_57__Default_Changelist_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/time.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/10 урок/10  урок.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/11 урок.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Arseevphp.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vagrant.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+    <list default="true" id="15c26154-f8b1-4a8d-b872-4df42fb52a03" name="Default Changelist" comment="Добавил функции подсчета и раскрашивания слов.">
+      <change afterPath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/color word.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/first phrase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2021_12_57_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_12_2021_12_57__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/Myprofile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/Myprofile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/PHP.php" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/8 урок/PHP.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/дерево.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/8 урок/дерево.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/олень.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/8 урок/олень.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/собака.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/8 урок/собака.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/трава.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/8 урок/трава.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/Table style Myprofile.css" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/Table style Myprofile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/time.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/time.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/10 урок/10  урок.php" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/10 урок/10  урок.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,16 +21,10 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="My_profile_control_development" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="SOFT" />
   </component>
-  <component name="ProjectId" id="21oMuwhlaDXpFDczfvk3neTJ5qs" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProjectId" id="21rRaUphtYyA834WoknjK7Vexp6" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,40 +33,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9d8cb8fe-f974-43d6-89de-e40064e4b749" name="Default Changelist" comment="" />
-      <created>1638603212564</created>
+      <changelist id="15c26154-f8b1-4a8d-b872-4df42fb52a03" name="Default Changelist" comment="" />
+      <created>1638697282822</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1638603212564</updated>
-      <workItem from="1638603213987" duration="1491000" />
-      <workItem from="1638605088495" duration="114000" />
-      <workItem from="1638605347762" duration="151000" />
-      <workItem from="1638605769143" duration="99000" />
-      <workItem from="1638605879979" duration="566000" />
-      <workItem from="1638606954080" duration="229000" />
+      <updated>1638697282822</updated>
+      <workItem from="1638697284074" duration="50000" />
+      <workItem from="1638697368720" duration="2515000" />
+      <workItem from="1638700138166" duration="16260000" />
     </task>
-    <task id="LOCAL-00001" summary="Обернул скрипт по смене фона в функцию и создал папку с функциями">
-      <created>1638604426666</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1638604426666</updated>
-    </task>
-    <task id="LOCAL-00002" summary="Обернул скрипт по смене фона в функцию и создал папку с функциями">
-      <created>1638604619293</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1638604619293</updated>
-    </task>
-    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,14 +56,9 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
-        <entry key="3396a19d-95af-421b-bf0b-b534b131699c">
+        <entry key="MAIN">
           <value>
             <State>
-              <option name="CUSTOM_BOOLEAN_PROPERTIES">
-                <map>
-                  <entry key="Show.Git.Branches" value="true" />
-                </map>
-              </option>
               <option name="FILTERS">
                 <map>
                   <entry key="branch">
@@ -110,59 +68,9 @@
                       </list>
                     </value>
                   </entry>
-                  <entry key="date">
-                    <value>
-                      <list>
-                        <option value="1638001585345" />
-                        <option value="" />
-                      </list>
-                    </value>
-                  </entry>
                 </map>
               </option>
             </State>
-          </value>
-        </entry>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="HEAD" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="OPEN_GENERIC_TABS">
-      <map>
-        <entry key="3396a19d-95af-421b-bf0b-b534b131699c" value="TOOL_WINDOW" />
-      </map>
-    </option>
-    <option name="RECENT_FILTERS">
-      <map>
-        <entry key="Branch">
-          <value>
-            <list>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="My_profile_control_development" />
-                </option>
-              </RecentGroup>
-              <RecentGroup>
-                <option name="FILTER_VALUES">
-                  <option value="HEAD" />
-                </option>
-              </RecentGroup>
-            </list>
           </value>
         </entry>
       </map>
@@ -170,7 +78,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Обернул скрипт по смене фона в функцию и создал папку с функциями" />
-    <option name="LAST_COMMIT_MESSAGE" value="Обернул скрипт по смене фона в функцию и создал папку с функциями" />
+    <MESSAGE value="Добавил функции подсчета и раскрашивания слов." />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавил функции подсчета и раскрашивания слов." />
   </component>
 </project>

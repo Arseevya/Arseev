@@ -18,10 +18,10 @@ echo "<br>";
 print_r($b_arr)
 */?>
 <?php
-$str="FACT";
+/*$str="FACT";
 $arr1=str_split($str, 3);
 print_r($arr1);
 $arr2[0]=substr($str, 0, 1);
 $arr2[1]=substr($str,1 , 3);
-print_r($arr2);
+print_r($arr2);*/
 ?>
