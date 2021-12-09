@@ -6,6 +6,7 @@
             "mn"
             "pf"
             "pg"
+            "cou"
             "ft";
 }
 
@@ -113,6 +114,9 @@
     text-align: center;
 
 
+}
+.Counter{
+    grid-area: cou;
 }
 
 @media print {
