@@ -9,4 +9,5 @@ function timeCustom()
         return "back_style_white";
     }
 }
+
 ?>

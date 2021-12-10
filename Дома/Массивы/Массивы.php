@@ -25,7 +25,7 @@
         $_massive = [["огурец", "помидор", "томат", "аэропорт", "Анадырь", "Аргентина", "перчатка"]];
         foreach ($_massive as $_first_dimension) {
             foreach ($_first_dimension as $_word) {
-                if (substr($_word, 0, 2) == "А")  {
+                if (substr($_word, 0, 2) == "А") {
                     echo "<br>$_word <br>";
                 }
             }
@@ -33,7 +33,7 @@
         ?>
         Третья задача<br>
         <?php
-        $all_sum=0;
+        $all_sum = 0;
         $massive = [[8, 3, 7, 9, 5, 5, 7]];
         for ($i = 0, $num_massive = count($massive); $i < $num_massive; $i++) {
             for ($m = 0, $sub_num_massive = count($massive[$i]); $sub_num_massive > $m; $m++) {
@@ -42,7 +42,7 @@
 
             }
         }
-        $all_sum =$demension_1*$demension_2;
+        $all_sum = $demension_1 * $demension_2;
         echo "Общее количество-$all_sum<br>" . "1 измерение-$demension_1<br> " . "2 измерение-$demension_2<br>"; ?>
 
 

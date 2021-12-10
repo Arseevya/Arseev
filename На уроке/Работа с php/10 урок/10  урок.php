@@ -64,4 +64,4 @@ $date2=date_create('09-12-2021');
 //print_r($date2);
 $diff=date_diff($date1,$date2);
 echo $diff->format('%a дней');
-*/?>
+*/ ?>
