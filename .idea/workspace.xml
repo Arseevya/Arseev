@@ -1,29 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccb2acfa-fc6f-4fcb-b189-4a254977f5a2" name="Default Changelist" comment="По сайту никаких изменений.Измненеия в папке &quot;На уроке&quot;.Добавил 10(полностью сделан), 11(надо проверить содержимое), 13(частично сделал).">
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/1page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/2page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/3page.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/form.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/Вторая задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/Первая задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/Пятая задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/Третья задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/12 урок/Чтвертая задача.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Дома/Массивы/Массивы ДЗ.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Массивы/Массивы ДЗ.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Дома/Массивы/Массивы.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Массивы/Массивы.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/color word.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/color word.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/first phrase.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/first phrase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/time.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/include-files/Функции/time.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/10 урок/10  урок.php" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/10 урок/10  урок.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/11 урок/11 урок.php" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/11 урок/11 урок.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/8 урок/PHP.php" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/8 урок/PHP.php" afterDir="false" />
+    <list default="true" id="ccb2acfa-fc6f-4fcb-b189-4a254977f5a2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/1 Задача.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/2 Задача.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/3 Задача.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 Задача res.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 Задача task 2.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 Задача task 3.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 задача task 1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/1 задача.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/16  урок.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/16 урок создание.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/2 здача.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Трудности.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/Myprofile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/Myprofile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/13 урок.php" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/14 урок/14 урок.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/Текстовик" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/14 урок/Текстовик" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

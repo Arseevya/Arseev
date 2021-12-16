@@ -39,7 +39,6 @@ include_once $_SERVER["DOCUMENT_ROOT"] . '\Дома\Мой профиль\includ
                 научить, а не тараторить без вовлечения в процесс за з.п.';
                 echo colorWord($_text2); ?></p></div>
         <div class="hw">
-            "
             <ol><?php $ref0 = 'Ссылки на страницы ДЗ';
                 echo $ref0; ?>
                 <li><a href="../Table of Mendeleev/Teable_Mendeleev.html" title='Таблица Менделеева'> <?php $ref1 = 'Таблица
