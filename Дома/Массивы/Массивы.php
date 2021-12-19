@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Массивы</title>
-</head>
-<body>
-<header><?php include '..\Мой профиль\include-files\header.txt'
-    ?>
-</header>
+<?php require $_SERVER["DOCUMENT_ROOT"] . '\Дома\Мой профиль\include-files\header.php' ?>
 <main>
     <code>
         Первая задача<br>
@@ -48,8 +39,4 @@
 
     </code>
 </main>
-<footer><?php
-    include '..\Мой профиль\include-files\footer.txt'
-    ?></footer>
-</body>
-</html>
+<?php require $_SERVER["DOCUMENT_ROOT"] . '\Дома\Мой профиль\include-files\footer.php' ?>

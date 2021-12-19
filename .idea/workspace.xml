@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ccb2acfa-fc6f-4fcb-b189-4a254977f5a2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/1 Задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/2 Задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/3 Задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 Задача res.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 Задача task 2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 Задача task 3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/4 задача task 1.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/1 задача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/16  урок.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/16 урок создание.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/На уроке/Работа с php/16 урок/2 здача.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Трудности.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Дома/Мой профиль/Myprofile.php" beforeDir="false" afterPath="$PROJECT_DIR$/Дома/Мой профиль/Myprofile.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/13 урок.php" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/14 урок/14 урок.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/На уроке/Работа с php/13 урок/Текстовик" beforeDir="false" afterPath="$PROJECT_DIR$/На уроке/Работа с php/14 урок/Текстовик" afterDir="false" />
-    </list>
+    <list default="true" id="ccb2acfa-fc6f-4fcb-b189-4a254977f5a2" name="Default Changelist" comment="Реструктуризация сайта,добавление авторизации регистрации анкеты" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +13,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -50,28 +34,54 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/На уроке/Работа с php/16 урок/16 урок создание.php" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="PhpDebugGeneral" hide_empty_superglobals="false" show_user_defined_constants="false" />
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP" />
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="2" />
+  </component>
   <component name="ProjectId" id="21x83rv2Jx59OCHdlCFM7E7sQBN" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/На уроке/Работа с php/12 урок" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Дома/Мой профиль/Фото" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="SQL Dialects" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\program\OpenServer\domains\Arseev\Дома\Мой профиль\Фото" />
+      <recent name="D:\program\OpenServer\domains\Arseev\Дома\Мой профиль\include-files" />
       <recent name="D:\program\OpenServer\domains\Arseev\На уроке\Работа с php\12 урок" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\program\OpenServer\domains\Arseev\На уроке\Работа с php\11 урок" />
+      <recent name="D:\program\OpenServer\domains\Arseev\Дома\Мой профиль\Фото" />
+      <recent name="D:\program\OpenServer\domains\Arseev\Дома\Мой профиль\include-files" />
+      <recent name="D:\program\OpenServer\domains\Arseev" />
+      <recent name="D:\program\OpenServer\domains\Arseev\Дома\Мой профиль\Myprofile" />
+      <recent name="D:\program\OpenServer\domains\Arseev\Дома\Мой профиль\Table style Myprofile" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="16 урок создание.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/На уроке/Работа с php/16 урок/16 урок создание.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.16 урок создание.php" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -88,6 +98,16 @@
       <workItem from="1639127502260" duration="3911000" />
       <workItem from="1639131546789" duration="19000" />
       <workItem from="1639131783379" duration="5515000" />
+      <workItem from="1639692789515" duration="2611000" />
+      <workItem from="1639745923994" duration="10236000" />
+      <workItem from="1639756289320" duration="2049000" />
+      <workItem from="1639758372226" duration="2020000" />
+      <workItem from="1639761360852" duration="9000" />
+      <workItem from="1639761569475" duration="5163000" />
+      <workItem from="1639817351937" duration="832000" />
+      <workItem from="1639818611796" duration="3341000" />
+      <workItem from="1639844303303" duration="1788000" />
+      <workItem from="1639905365663" duration="41719000" />
     </task>
     <task id="LOCAL-00001" summary="По сайту никаких изменений.Измненеия в папке &quot;На уроке&quot;.Добавил 10(полностью сделан), 11(надо проверить содержимое), 13(частично сделал).">
       <created>1639035488366</created>
@@ -103,7 +123,28 @@
       <option name="project" value="LOCAL" />
       <updated>1639035671700</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Добавил 16 урок.Контрольная точка перед реструктуризацией">
+      <created>1639653940394</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639653940394</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Реструкуризация сайта,добавление авторизации регистрации анкеты">
+      <created>1639947650552</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639947650552</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Реструктуризация сайта,добавление авторизации регистрации анкеты">
+      <created>1639947762479</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1639947762479</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,7 +176,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="По сайту никаких изменений.Измненеия в папке &quot;На уроке&quot;.Добавил 10(полностью сделан), 11(надо проверить содержимое), 13(частично сделал)." />
-    <option name="LAST_COMMIT_MESSAGE" value="По сайту никаких изменений.Измненеия в папке &quot;На уроке&quot;.Добавил 10(полностью сделан), 11(надо проверить содержимое), 13(частично сделал)." />
+    <MESSAGE value="Добавил 16 урок.Контрольная точка перед реструктуризацией" />
+    <MESSAGE value="Реструкуризация сайта,добавление авторизации регистрации анкеты" />
+    <MESSAGE value="Реструктуризация сайта,добавление авторизации регистрации анкеты" />
+    <option name="LAST_COMMIT_MESSAGE" value="Реструктуризация сайта,добавление авторизации регистрации анкеты" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
