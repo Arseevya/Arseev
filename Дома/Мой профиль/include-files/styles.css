@@ -1,0 +1,388 @@
+.container_all {
+    display: grid;
+    grid-template-areas:
+            "hd"
+            "mn"
+            "pf"
+            "pg"
+            "cou"
+            "ft";
+}
+
+.header {
+    grid-area: hd;
+           }
+.about_me {
+    display: grid;
+    justify-items: stretch;
+    grid-area: mn;
+    grid-template-areas:
+". name name"
+"fot mi com"
+"fot hw hw ";
+
+}
+
+.myfoto {
+    grid-area: fot;
+
+}
+
+.name {
+    grid-area: name;
+    text-align: center;
+}
+
+.myinfo {
+    grid-area: mi;
+
+}
+
+.mycomment {
+    grid-area: com;
+}
+
+.hw {
+    grid-area: hw;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.pictureflex {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    grid-area: pf;
+}
+
+.picture_one_flex {
+    display: flex;
+
+
+}
+
+.picture_two_flex {
+    display: flex;
+}
+
+.picture_three_flex {
+    display: flex;
+}
+
+.picture_four_flex {
+    display: flex;
+}
+
+.text_of_picture_flex {
+    display: flex;
+    justify-content: center;
+}
+
+.picturegrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+    grid-area: pg;
+
+}
+
+.picture_one_grid {
+    display: block;
+}
+
+.picture_two_grid {
+    display: block;
+}
+
+.picture_three_grid {
+    display: block;
+}
+
+.picture_four_grid {
+    display: block;
+
+}
+
+.text_of_picture_grid {
+    display: block;
+    text-align: center;
+
+
+}
+.Counter{
+    grid-area: cou;
+}
+/*Регистрация и авторизация*/
+* {
+    box-sizing: border-box
+}
+/* Добавить заполнение к контейнерам */
+.hat {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: auto;
+    background-color: #0d4ce5;
+    padding: 50px;
+    width: 50vw;
+
+
+
+}
+
+/* Поля ввода во всю ширину */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Перезаписать стили hr по умолчанию */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* Установите стиль для кнопки отправки / регистрации */
+.fbtn {
+    background-color: #268e12;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+.fbtn:hover {
+    opacity: 1;
+}
+
+/* Добавьте синий цвет текста к ссылкам */
+a {
+    color: dodgerblue;
+}
+.containerSignIn{
+    height: 50%;
+    width: 100%;
+    text-align: center;
+
+}
+/* Добавьте синий цвет текста к ссылкам */
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+/*Таблица Менделеева*/
+.table {
+    display: grid;
+    grid-area: mn;
+    justify-content: center;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+    grid-template-areas:
+    "h . . . . . ."
+    "li be b c n o f"
+    "na mg al si p s cl"
+    "k ca sc ti v cr mn1"
+    "cu zn ga ge as se br";
+}
+
+.h {
+    grid-area: h;
+
+}
+
+.li {
+    grid-area: li;
+
+}
+
+.be {
+    grid-area: be;
+
+
+}
+
+.b {
+    grid-area: b;
+
+
+}
+
+.c {
+    grid-area: c;
+
+
+}
+
+.n {
+    grid-area: n;
+
+
+}
+
+.o {
+    grid-area: o;
+
+}
+
+.f {
+    grid-area: f;
+
+
+}
+
+.na {
+    grid-area: na;
+
+}
+
+.mg {
+    grid-area: mg;
+
+}
+
+.al {
+    grid-area: al;
+
+}
+
+.si {
+    grid-area: si;
+
+}
+
+.p {
+    grid-area: p;
+
+}
+
+.s {
+    grid-area: s;
+
+}
+
+.cl {
+    grid-area: cl;
+
+}
+
+.k {
+    grid-area: k;
+}
+
+.ca {
+    grid-area: ca;
+
+}
+
+.sc {
+    grid-area: sc;
+}
+
+.ti {
+    grid-area: ti;
+}
+
+.v {
+    grid-area: v;
+}
+
+.cr {
+    grid-area: cr;
+}
+
+.mn1 {
+    grid-area: mn1;
+}
+
+.cu {
+    grid-area: cu;
+}
+
+.zn {
+    grid-area: zn;
+}
+
+.ga {
+    grid-area: ga;
+}
+
+.ge {
+    grid-area: ge;
+}
+
+.as {
+    grid-area: as;
+}
+
+.se {
+    grid-area: se;
+}
+
+.br {
+    grid-area: br;
+}
+
+.h, .li, .be, .b, .c, .n, .o, .f, .na, .mg, .al, .si, .p, .s, .cl, .k, .ca, .sc,
+.ti, .v, .cr, .mn1, .cu, .zn, .ga, .ge, .as, .se, .br {
+    display: block;
+    background-color: green;
+    height: 10vh;
+    width: 10vw;
+}
+.him_block{
+}
+.num{
+}
+.el{
+
+}
+.name{
+}
+.mas{
+}
+.num, .el,.name,.mas{
+     width: 100%;
+    font-size: 10px;
+    text-align: left;
+}
+@media print {
+    .container_all {
+        display: block;
+    }
+}
+
+.myinfo {
+    display: block;
+}
+
+.mycomment {
+    display: block;
+}
+
+.footer {
+    text-align: center;
+    grid-area:ft;
+}
+
+#back_style_day {
+    background-color: white;
+}
+
+#back_style_night {
+    background-color: gray;
+}
